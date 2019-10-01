@@ -1,0 +1,73 @@
+body {
+    background: rgb(220, 221, 221);
+}
+h1{
+    font-weight: 400;
+    color: white;
+     }
+#container {
+    background-color: mediumspringgreen;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+p{
+    color: white;
+    padding: 10px;
+}
+span {
+    color: rgb(39, 75, 141);
+}
+.pass {
+    color: black;
+    float: right;
+
+}
+#container2 {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+button {
+    background-color: #2ebe3a;
+    color:#fff;
+    font-size:12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    width: 90%;
+}
+ #sign {
+    background-color: rgb(241, 10, 10);
+}
+form {
+    background-color: aliceblue;
+}
+input {
+    margin: 8px;
+    border: none;
+    padding: 5px;
+    width:90%;
+}
+label {
+    padding: 8px;
+}
+select {
+    width: 90%;
+    padding: 8px;
+}
+
+#login {
+    position: absolute;
+    right: 50%;
+    top: 15%;
+    min-width: 45%;
+    margin: 30px;
+    padding: 5px;
+}
+#signup {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    min-width: 45%;
+    margin:30px;
+    padding: 5px;
+}

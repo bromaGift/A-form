@@ -4,7 +4,7 @@ body {
 h1{
     font-weight: 400;
     color: white;
-     }
+ }
 #container {
     background-color: mediumspringgreen;
     padding: 10px;
@@ -30,20 +30,23 @@ span {
 button {
     background-color: #2ebe3a;
     color:#fff;
-    font-size:12px;
+    font-size:15px;
     font-weight: bold;
     padding: 12px 45px;
     width: 90%;
+    margin: 20px;
+    border-radius: 12px;
 }
  #sign {
     background-color: rgb(241, 10, 10);
+    
 }
 form {
     background-color: aliceblue;
 }
 input {
     margin: 8px;
-    border: none;
+    border: 0.2px solid;
     padding: 5px;
     width:90%;
 }
@@ -52,7 +55,9 @@ label {
 }
 select {
     width: 90%;
-    padding: 8px;
+    padding: 5px;
+    border: 0.2px solid;
+    margin:8px;
 }
 
 #login {
@@ -60,7 +65,7 @@ select {
     right: 50%;
     top: 15%;
     min-width: 45%;
-    margin: 30px;
+    margin: 40px;
     padding: 5px;
 }
 #signup {
@@ -68,6 +73,16 @@ select {
     left: 50%;
     top: 15%;
     min-width: 45%;
-    margin:30px;
+    margin: 40px;
     padding: 5px;
+}
+#lock {
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+#pencil {
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
 }

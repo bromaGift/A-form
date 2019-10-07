@@ -2,31 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
         <title>Sign In/Sign Up </title>
     </head>
         <body>
            <div id="login">
                <div id="container">
+                   <div id="lock">
+                        <i class="fas fa-lock fa-3x"></i>
+                   </div>
                 <h1>Login</h1>
-                <p>See whats going on your college today</p>
+                <p>See whats going on your college today </p>
             </div>
            <form>
-               <label for="login-as">Login as</label><br><br>
+               <label for="login-as"><i class="fas fa-user"></i> Login as</label><br><br>
                <select id="login-as">
                    <option value="Student">Student</option>
                    <option value="Teacher">Teacher</option><br>
                 </select>
                    <br><br>
          
-                   <label for="USN">USN</label> <br>
+                   <label for="USN"><i class="fas fa-user"></i>USN</label> <br>
                 <input id="USN" type="text" name="USN"  placeholder="USN">  
                     <br><br>
 
-                <label for="Password">Password</label><br>
+                <label for="Password"><i class="fas fa-eye"></i>Password</label><br>
                 <input id="Password" type="password" name="password" placeholder="password">
                 <br><br>
-                <button id="log">Login</button>
+                <button id="log"><i class="fas fa-lock"></i>Login</button>
                 <p class="pass">Forgot <span>Password?</span></p>
             </div>
         </form>
@@ -34,29 +39,32 @@
 
          <div id="signup"> 
              <div id="container2"> 
-            <h1>Signup</h1>
+                 <div id="pencil">
+                        <i class="fas fa-pencil-alt fa-3x"></i>
+                 </div>
+            <h1>Signup </h1>
             <p>Be a part of your college community</p>
             </div>
             
         <form>
-            <label for="signup-as">Signup as</label><br><br>
+            <label for="signup-as"><i class="fas fa-user"></i>Signup as</label><br><br>
             <select id="signup-as">
                 <option value="Student">Student</option>
                 <option value="Teacher">Teacher</option><br>
                 </select>
                 <br><br>
         
-                <label for="USN">USN</label> <br>
+                <label for="USN"><i class="fas fa-user"></i>USN</label> <br>
                 <input id="USN" type="text" name="USN"  placeholder="USN">  
                     <br><br>
 
-                    <label for="Password">Password</label><br>
+                    <label for="Password"><i class="fas fa-eye"></i>Password</label><br>
                     <input id="Password" type="password" name="password" placeholder="password">
                 <br><br>
-                    <label for="Confirm">Confirm Password</label><br>
+                    <label for="Confirm"><i class="fas fa-eye"></i>Confirm Password</label><br>
                     <input id="Confirm" type="password" name="Confirm password" placeholder="Confirm password">
                     <br><br>
-                <button id="sign">SignUp</button>
+                <button id="sign"><i class="fas fa-pencil-alt"></i>SignUp</button>
             </div>
            </form>
         </body>

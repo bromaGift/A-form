@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
 body {
     background: rgb(220, 221, 221);
 }
@@ -7,12 +12,12 @@ h1{
  }
 #container {
     background-color: mediumspringgreen;
-    padding: 10px;
+    padding: 1%;
     margin-bottom: 5px;
 }
 p{
     color: white;
-    padding: 10px;
+    padding: 8px;
 }
 span {
     color: rgb(39, 75, 141);
@@ -20,11 +25,10 @@ span {
 .pass {
     color: black;
     float: right;
-
 }
 #container2 {
     background-color: red;
-    padding: 10px;
+    padding: 1%;
     margin-bottom: 5px;
 }
 button {
@@ -48,13 +52,13 @@ input {
     margin: 8px;
     border: 0.2px solid;
     padding: 5px;
-    width:90%;
+    width: 90%;
 }
 label {
     padding: 8px;
 }
 select {
-    width: 90%;
+    width: 91.5%;
     padding: 5px;
     border: 0.2px solid;
     margin:8px;
@@ -63,26 +67,26 @@ select {
 #login {
     position: absolute;
     right: 50%;
-    top: 15%;
+    top: 8%;
     min-width: 45%;
-    margin: 40px;
-    padding: 5px;
+    margin: 4%;
+    padding: -1%;
 }
 #signup {
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 8%;
     min-width: 45%;
-    margin: 40px;
-    padding: 5px;
+    margin: 4%;
+    padding: -1%;
 }
 #lock {
     float: right;
-    margin-top: 60px;
-    margin-right: 100px;
+    margin-top: 6%;
+    margin-right: 10%;
 }
 #pencil {
     float: right;
-    margin-top: 60px;
-    margin-right: 100px;
+    margin-top: 6%;
+    margin-right: 10%;
 }

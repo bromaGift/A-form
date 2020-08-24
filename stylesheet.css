@@ -1,20 +1,22 @@
-html {
+body {
+    background: rgb(220, 221, 221);
+    box-sizing: border-box;
     height: 100%;
     margin: 0;
     width: 100%;
 }
-body {
-    background: rgb(220, 221, 221);
-}
+
 h1{
     font-weight: 400;
     color: white;
  }
+
 #container {
     background-color: mediumspringgreen;
     padding: 1%;
     margin-bottom: 5px;
 }
+
 p{
     color: white;
     padding: 8px;
